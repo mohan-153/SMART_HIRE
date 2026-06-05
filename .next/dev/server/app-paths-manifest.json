@@ -1,0 +1,20 @@
+{
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/admin/jobs/[id]/page": "app/admin/jobs/[id]/page.js",
+  "/admin/jobs/page": "app/admin/jobs/page.js",
+  "/admin/users/candidates/page": "app/admin/users/candidates/page.js",
+  "/admin/users/recruiters/page": "app/admin/users/recruiters/page.js",
+  "/api/admin/candidates/route": "app/api/admin/candidates/route.js",
+  "/api/admin/dashboard/route": "app/api/admin/dashboard/route.js",
+  "/api/admin/jobs/[id]/route": "app/api/admin/jobs/[id]/route.js",
+  "/api/admin/jobs/route": "app/api/admin/jobs/route.js",
+  "/api/admin/recruiters/route": "app/api/admin/recruiters/route.js",
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/auth/logout/route": "app/api/auth/logout/route.js",
+  "/api/auth/me/route": "app/api/auth/me/route.js",
+  "/api/candidate/profile/route": "app/api/candidate/profile/route.js",
+  "/candidate/dashboard/page": "app/candidate/dashboard/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/register/page": "app/register/page.js"
+}
