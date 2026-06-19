@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":["file:///E:/smart_hire/src/app/api/auth/logout/route.js"],"sourcesContent":["import { NextResponse } from \"next/server\";\n\nexport async function POST() {\n  const response = NextResponse.json({\n    success: true,\n    message: \"Logged Out\",\n  });\n\n  response.cookies.set(\"token\", \"\", {\n    httpOnly: true,\n    expires: new Date(0),\n    path: \"/\",\n  });\n\n  return response;\n}"],"names":["POST","response","json","success","message","cookies","set","httpOnly","expires","Date","path"],"mappings":";;;;AAAA;;AAEO,eAAeA;IACpB,MAAMC,WAAW,gJAAY,CAACC,IAAI,CAAC;QACjCC,SAAS;QACTC,SAAS;IACX;IAEAH,SAASI,OAAO,CAACC,GAAG,CAAC,SAAS,IAAI;QAChCC,UAAU;QACVC,SAAS,IAAIC,KAAK;QAClBC,MAAM;IACR;IAEA,OAAOT;AACT"}}]
+}

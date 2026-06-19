@@ -1,0 +1,14 @@
+{
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/api/admin/dashboard/route": "app/api/admin/dashboard/route.js",
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/auth/logout/route": "app/api/auth/logout/route.js",
+  "/api/auth/me/route": "app/api/auth/me/route.js",
+  "/api/candidate/profile/route": "app/api/candidate/profile/route.js",
+  "/api/recruiter/dashboard/route": "app/api/recruiter/dashboard/route.js",
+  "/candidate/account/profile/page": "app/candidate/account/profile/page.js",
+  "/candidate/dashboard/page": "app/candidate/dashboard/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/recruiter/dashboard/page": "app/recruiter/dashboard/page.js"
+}
